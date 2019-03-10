@@ -1,0 +1,43 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eeeeee;
+}
+.todo-item input {
+    margin-top: 5px;
+    outline: none;
+}
+.todo-item p {
+    text-align: left;
+    color: #485563;
+    font-size: 10px;
+    margin-left: 5px;
+    text-transform: capitalize;
+    margin-right: auto;
+}
+.todo-item button {
+    color: #ffffff;
+    background-color: #485563;
+    width: 15%;
+    margin: 0 2px;
+    text-align: center;
+    font-size: 8px;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid #485563;
+}
+
+@media (min-width: 1020px) {
+    .todo-item {
+        border-top: 2px solid #eeeeee;
+    }
+    .todo-item p {
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .todo-item button {
+        width: 10%;
+        margin: 0 4px;
+        font-size: 14px;
+    }
+}

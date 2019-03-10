@@ -1,0 +1,137 @@
+.todolist {
+    height: 100vh;
+    padding: 20px 10px;
+    background: 
+                  linear-gradient(to top, #29323c, #485563);
+
+}
+.todolist_content {
+    width: 85%;
+    margin: 1px auto 50px;
+    background: #ffffff;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+.todolist_header {
+    border-bottom: 3px solid #5961ee;
+    padding: 0 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.todolist_header_image {
+    margin-right: 20px;
+}
+.todolist_header_image img {
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+}
+.todolist_header_details h1 {
+    font-size: 18px;
+    color: #ffffff;
+}
+.todolist_header_details p {
+    margin-top: -10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+.userName {
+    color: #5961ee;
+    font-style: italic;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+.todolist_items {
+    text-align: center;
+    border: 2px solid #ffffff;
+}
+.todolist_items img {
+    width: 60%;
+    height: 35px;
+    margin: 5px auto 15px;
+}
+.todolist_forms {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 20px auto 0;
+    padding: 10px;
+}
+.todolist_forms input {
+    padding: 5px 0;
+    outline: none;
+    text-align: center;
+    border: 1px solid #ffffff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.todolist_forms button {
+    padding: 10px 0;
+    outline: none;
+    text-align: center;
+    border: 1px solid #5961ee;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color:  #5961ee;
+    color: #fff;
+}
+.todolist_forms p {
+    font-size: 12px;
+    font-style: italic;
+    color: #ffaa19;
+    margin-top: 15px;
+    text-align: center;
+} 
+
+@media (min-width: 1020px) {
+    .todolist_content {
+        width: 70%;
+        overflow: auto;
+    }
+    .todolist_header {
+        border-bottom: 3px solid #5961ee;
+        padding: 0 50px 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .todolist_header_image {
+        order: 2;
+    }
+    .todolist_header_image img {
+        width: 80px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .todolist_header_details h1 {
+        font-size: 24px;
+        letter-spacing: 1px;
+
+    }
+    .todolist_header_details p {
+        font-size: 14px;
+    }
+    .todolist_items img {
+        width: 30%;
+        height: 45px;
+        margin: 5px auto 20px;
+    }
+    .todolist_forms {
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        margin: 30px auto 0;
+        padding: 10px;
+    }
+    .todolist_forms input:focus {
+        background-color: #cccccc;
+    }
+    .todolist_forms p {
+        font-size: 16px;
+        margin-top: 20px;
+    }     
+}
