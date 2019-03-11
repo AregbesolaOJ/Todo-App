@@ -44,7 +44,7 @@ class App extends Component {
     event.preventDefault();
 
     if (this.state.userName !== '') {
-      this.setState({ isLoading: true })
+      this.setState({ isLoading: true, errorView: false })
 
       setTimeout(() => {
         this.setState({ 

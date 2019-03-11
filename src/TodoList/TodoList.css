@@ -14,7 +14,7 @@
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
 }
 .todolist_header {
-    border-bottom: 3px solid #5961ee;
+    border-bottom: 3px solid lightsalmon;
     padding: 0 10px;
     display: flex;
     justify-content: flex-start;
@@ -40,7 +40,7 @@
     color: #ffffff;
 }
 .userName {
-    color: #5961ee;
+    color: lightsalmon;
     font-style: italic;
     text-transform: capitalize;
     text-decoration: underline;
@@ -73,10 +73,10 @@
     padding: 10px 0;
     outline: none;
     text-align: center;
-    border: 1px solid #5961ee;
+    border: 1px solid lightsalmon;
     border-radius: 5px;
     font-weight: bold;
-    background-color:  #5961ee;
+    background-color:  lightsalmon;
     color: #fff;
 }
 .todolist_forms p {
@@ -93,7 +93,7 @@
         overflow: auto;
     }
     .todolist_header {
-        border-bottom: 3px solid #5961ee;
+        border-bottom: 3px solid lightsalmon;
         padding: 0 50px 10px;
         display: flex;
         justify-content: space-between;

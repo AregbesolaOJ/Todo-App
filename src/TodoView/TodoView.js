@@ -18,7 +18,7 @@ const TodoView = () => {
                                 required
                             />
                             <button onClick={context.actions.clicked}>{context.data.isLoading ? "Loading..." : "Create Todo"}</button>
-                            <p>{context.data.errorView ? "Oops! That an empty field..." : null}</p>
+                            <p>{context.data.errorView ? "Oops! That's an empty field..." : null}</p>
                         </form>
                     </div>
                 </div>
